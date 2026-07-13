@@ -1,223 +1,232 @@
-# 🧠 Prompt Engineering for AI-Powered Software Engineering
+# 🧠 Prompt Engineering para Engenharia de Software com IA
 
-> **Production-grade Prompt Engineering for AI-powered Software Engineering.**
-> Reusable prompts for autonomous agents, architecture reviews, security analysis, code quality, DevSecOps, and intelligent software governance.
-
----
-
-## 📖 About
-
-This repository contains a curated collection of **production-ready prompts** designed to enhance the daily work of software engineers using AI assistants such as:
-
-- GitHub Copilot
-- ChatGPT
-- Claude
-- Gemini
-- Cursor
-- Codex
-- Windsurf
-- Other AI coding assistants
-
-The goal is **not to replace engineering expertise**, but to provide structured prompts that help AI deliver more accurate, consistent, and higher-quality results throughout the software development lifecycle.
-
-These prompts were created from real-world software engineering scenarios and are continuously refined as new challenges arise.
+> **Coleção de prompts profissionais para Engenharia de Software impulsionada por Inteligência Artificial.**
+> Prompts reutilizáveis para agentes autônomos, revisão de arquitetura, análise de segurança, qualidade de código, DevSecOps e governança inteligente de software.
 
 ---
 
-# 🎯 Purpose
+# 📖 Sobre o Projeto
 
-Modern AI assistants are extremely powerful, but the quality of their responses depends heavily on the quality of the instructions they receive.
+Este repositório reúne uma coleção de **prompts profissionais**, desenvolvidos para auxiliar o dia a dia de desenvolvedores, arquitetos, analistas, líderes técnicos e equipes de engenharia que utilizam Inteligência Artificial como apoio no desenvolvimento de software.
 
-This repository serves as a **Prompt Engineering toolkit** that helps developers:
+Os prompts podem ser utilizados em diversos assistentes de IA, como:
 
-- write better code
-- review pull requests
-- analyze architectures
-- detect security issues
-- improve software quality
-- generate documentation
-- automate repetitive engineering tasks
-- accelerate software delivery
+* GitHub Copilot
+* ChatGPT
+* Claude
+* Gemini
+* Cursor
+* Codex
+* Windsurf
+* Outros assistentes compatíveis
 
-Think of these prompts as **engineering accelerators** rather than simple AI commands.
+O objetivo **não é substituir o conhecimento técnico do profissional**, mas potencializar sua produtividade por meio de instruções bem estruturadas, permitindo que a IA forneça respostas mais completas, precisas e consistentes.
 
----
-
-# 🚀 Use Cases
-
-The prompts can be used for:
-
-## 💻 Software Development
-
-- Code generation
-- Refactoring
-- Bug fixing
-- Performance optimization
-- Legacy modernization
+Cada prompt foi criado a partir de situações reais enfrentadas durante o desenvolvimento de software e continua evoluindo conforme surgem novos desafios tecnológicos.
 
 ---
 
-## 🏗 Architecture
+# 🎯 Objetivo
 
-- Architecture review
-- Design patterns
-- SOLID validation
-- Clean Architecture
-- Microservices
-- Event-driven architecture
+A qualidade das respostas produzidas por uma Inteligência Artificial depende diretamente da qualidade das instruções fornecidas.
 
----
+Este repositório foi criado para servir como uma biblioteca de **Prompt Engineering**, oferecendo modelos reutilizáveis que ajudam profissionais de tecnologia a obter melhores resultados durante todas as etapas do ciclo de desenvolvimento de software.
 
-## 🔒 Security
+Os prompts auxiliam na:
 
-- OWASP Top 10
-- Secure Coding
-- Secrets Detection
-- Dependency analysis
-- LGPD/GDPR review
-- Threat modeling
+* implementação de funcionalidades;
+* geração de código;
+* revisão de Pull Requests;
+* análise arquitetural;
+* identificação de vulnerabilidades;
+* melhoria da qualidade do código;
+* criação de documentação técnica;
+* automação de atividades repetitivas;
+* aceleração do desenvolvimento.
 
----
-
-## 🧪 Quality Assurance
-
-- Unit testing
-- Integration testing
-- Test strategy
-- Code coverage
-- Static analysis
-- Technical debt detection
+Mais do que simples comandos para IA, estes prompts funcionam como **aceleradores de engenharia**, tornando o trabalho diário mais eficiente e padronizado.
 
 ---
 
-## 🚀 DevOps & Platform Engineering
+# 🚀 Casos de Uso
 
-- CI/CD
-- Infrastructure as Code
-- Kubernetes
-- Docker
-- Cloud Architecture
-- Observability
-- Monitoring
-- Reliability
+Os prompts deste repositório podem ser utilizados em diversas áreas da Engenharia de Software.
 
----
+## 💻 Desenvolvimento
 
-## 📚 Documentation
-
-- README generation
-- ADRs
-- Technical documentation
-- API documentation
-- Architecture documentation
-- Project onboarding
+* Implementação de funcionalidades
+* Geração de código
+* Correção de bugs
+* Refatoração
+* Otimização de desempenho
+* Modernização de sistemas legados
 
 ---
 
-# 🤖 How to Use
+## 🏗 Arquitetura de Software
 
-Choose the prompt that best matches your task.
-
-Copy it.
-
-Paste it into your preferred AI assistant.
-
-Provide the necessary project context.
-
-Review the generated response.
-
-Adapt it when necessary.
-
-Although these prompts are designed for professional use, **human validation is always recommended**, especially for production environments.
+* Revisão arquitetural
+* Clean Architecture
+* SOLID
+* Design Patterns
+* Microsserviços
+* Arquitetura Orientada a Eventos
+* Boas práticas de engenharia
 
 ---
 
-# 📂 Repository Structure
+## 🔒 Segurança
+
+* OWASP Top 10
+* Secure Coding
+* Análise de vulnerabilidades
+* Detecção de Secrets
+* Dependências inseguras
+* LGPD
+* Modelagem de ameaças
+
+---
+
+## 🧪 Qualidade de Software
+
+* Testes Unitários
+* Testes de Integração
+* Estratégias de Testes
+* Cobertura de Código
+* Dívida Técnica
+* Code Review
+* Análise Estática
+
+---
+
+## 🚀 DevOps e Platform Engineering
+
+* CI/CD
+* Docker
+* Kubernetes
+* Infraestrutura como Código
+* Observabilidade
+* Monitoramento
+* Engenharia de Plataforma
+* Confiabilidade
+
+---
+
+## 📚 Documentação
+
+* README
+* ADRs
+* Documentação Técnica
+* APIs
+* Diagramas
+* Guias de Implantação
+* Onboarding
+
+---
+
+# 🤖 Como Utilizar
+
+1. Escolha o prompt adequado para sua necessidade.
+
+2. Copie o conteúdo do prompt.
+
+3. Cole no assistente de IA de sua preferência.
+
+4. Informe o contexto do projeto.
+
+5. Analise a resposta gerada.
+
+6. Adapte a solução conforme necessário.
+
+Os prompts foram desenvolvidos para servir como apoio ao processo de engenharia e **sempre devem ser acompanhados por validação humana**, principalmente quando utilizados em ambientes de produção.
+
+---
+
+# 📂 Estrutura do Repositório
 
 ```text
 prompts/
 │
-├── architecture/
+├── arquitetura/
 ├── backend/
 ├── frontend/
-├── database/
+├── banco-de-dados/
 ├── devops/
-├── security/
-├── testing/
-├── documentation/
+├── seguranca/
+├── testes/
+├── documentacao/
 ├── code-review/
-├── refactoring/
+├── refatoracao/
 ├── performance/
 ├── cloud/
 ├── kubernetes/
-├── observability/
-├── ai-agents/
-└── misc/
+├── observabilidade/
+├── agentes-ia/
+└── diversos/
 ```
 
 ---
 
-# 💡 Best Practices
+# 💡 Boas Práticas
 
-To obtain the best results:
+Para obter respostas mais precisas da IA:
 
-- Provide project context.
-- Specify the programming language.
-- Inform the framework and versions.
-- Explain the business objective.
-- Share relevant files when possible.
-- Validate every generated result before production.
+* forneça contexto suficiente;
+* informe linguagem e framework utilizados;
+* descreva o objetivo da funcionalidade;
+* compartilhe arquivos relevantes quando necessário;
+* revise todo o conteúdo gerado antes de utilizá-lo.
 
-Good prompts produce better answers.
-
-Better context produces better engineering decisions.
+Quanto melhor o contexto fornecido, melhores serão as respostas produzidas pela Inteligência Artificial.
 
 ---
 
-# 🔄 Continuous Improvement
+# 🔄 Evolução Contínua
 
-This repository is continuously evolving.
+Este repositório está em constante evolução.
 
-New prompts are added as new software engineering challenges emerge.
+Novos prompts serão adicionados à medida que novas necessidades surgirem durante o desenvolvimento de software.
 
-Contributions, suggestions, and improvements are always welcome.
-
----
-
-# 🌍 Philosophy
-
-Prompt Engineering is becoming a fundamental software engineering skill.
-
-Instead of asking AI to "write code", these prompts are designed to help engineers:
-
-- think better
-- design better
-- review better
-- document better
-- deliver software with higher quality
-
-The objective is to make AI a reliable engineering partner rather than simply a code generator.
+Sugestões, melhorias e contribuições são sempre bem-vindas.
 
 ---
 
-# ⚠ Disclaimer
+# 🌍 Filosofia
 
-These prompts are intended to assist software engineering activities.
+Prompt Engineering tornou-se uma competência essencial para a Engenharia de Software moderna.
 
-They do **not** replace architectural decisions, security reviews, quality assurance processes, or human expertise.
+O objetivo deste projeto não é apenas solicitar que uma IA escreva código, mas ensinar a fornecer instruções que permitam à Inteligência Artificial atuar como uma verdadeira parceira durante todo o ciclo de desenvolvimento.
 
-Always review AI-generated outputs before using them in production systems.
+Com prompts bem estruturados, é possível:
+
+* desenvolver melhor;
+* revisar melhor;
+* documentar melhor;
+* arquitetar melhor;
+* entregar software com mais qualidade.
+
+A Inteligência Artificial deve ser vista como um apoio estratégico ao profissional, ampliando sua capacidade de análise, produtividade e tomada de decisão.
 
 ---
 
-# 📄 License
+# ⚠ Aviso
 
-This project is released under the MIT License.
+Os prompts disponibilizados neste repositório têm como finalidade auxiliar atividades relacionadas à Engenharia de Software.
+
+Eles **não substituem** revisões técnicas, decisões arquiteturais, validações de segurança, processos de qualidade ou a experiência dos profissionais envolvidos.
+
+Todo conteúdo gerado por IA deve ser analisado e validado antes de sua utilização em ambientes produtivos.
 
 ---
 
-## ⭐ If this repository helps you
+# 📄 Licença
 
-Consider giving it a ⭐ on GitHub.
+Este projeto é distribuído sob a licença **MIT**.
 
-It helps others discover the project and supports its continuous evolution.
+---
+
+# ⭐ Gostou do projeto?
+
+Se este repositório foi útil para você, deixe uma ⭐ no GitHub.
+
+Seu apoio ajuda o projeto a evoluir e permite que mais profissionais tenham acesso a uma biblioteca de prompts voltada para Engenharia de Software e Inteligência Artificial.
